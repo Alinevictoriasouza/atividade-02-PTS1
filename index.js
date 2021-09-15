@@ -7,15 +7,15 @@ app.set ('view  engine', 'ejs');
 app.engine ('html', require ('ejs').renderFile ) ;
 
 app.get('/', (req, res) => {
-  res.send("index.ejs");
+  res.render("index.ejs");
 })
 
 app.get('/noticias', (req, res) => {
-  res.send("noticias/index.ejs");
+  res.render("noticias/index.ejs");
 })
 
 app.get('/apresentarnoticias1', (req, res) => {
-  res.send("noticias/listarnoticias/index.ejs");
+  res.render("noticias/listarnoticias/index.ejs");
 })
 
 app.get('/apresentarnoticias2', (req, res) => {
