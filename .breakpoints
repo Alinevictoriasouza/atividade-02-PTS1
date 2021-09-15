@@ -1,0 +1,28 @@
+{
+  "files": {
+    "index.js": [
+      {
+        "id": "3593a753-1389-4aff-bdef-510f37b8ae1a",
+        "line": 17,
+        "version": 314,
+        "index": 341
+      }
+    ],
+    "public/css/estilo.css": [
+      {
+        "id": "76b5c9d4-3508-472f-b506-83ed8867be8c",
+        "line": 11,
+        "version": 498,
+        "index": 141
+      }
+    ],
+    "views/index.ejs": [
+      {
+        "id": "b0e72c82-5a55-4e1d-a4e5-368751c46a36",
+        "line": 18,
+        "version": 618,
+        "index": 457
+      }
+    ]
+  }
+}
